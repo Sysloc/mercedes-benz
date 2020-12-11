@@ -117,6 +117,55 @@ div.space.spaceExtra {
   }
 }
 
+header {
+  height: 108px;
+}
+
+header .header__container {
+  position: relative;
+  width: 92%;
+  margin: 0 auto;
+}
+
+header .header__container .header__logo {
+  position: absolute;
+  top: 22px;
+}
+
+header .header__container .header__logo img:first-child {
+  width: 64px;
+  height: 64px;
+}
+
+header .header__container .header__logo img:last-child {
+  height: 28px;
+  width: 112px;
+  margin: 30px 0px 0px 57px;
+}
+
+header .header__container .header__language {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+header .header__container .header__menu {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
+header .header__container .header__menu .navbar .collapse .navbar-nav .nav-item {
+  margin: 0 18px;
+}
+
+header .header__container .header__menu .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
+}
+
 .welcome .welcomeImg {
   padding: 0.3em;
 }
